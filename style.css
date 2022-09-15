@@ -41,6 +41,7 @@ header{
     top: 0;
     box-shadow: rgba(27, 31, 35, 0.04) 0px 1px 0px, rgba(255, 255, 255, 0.25) 0px 1px 0px inset;
     padding: 0px 40px;
+    z-index: 100;
 }
 
 li{
@@ -405,6 +406,19 @@ a{
     height: 50px;
   }
 
+  .hidden{
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s ease;
+  }
+
+  .show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+  }
+
 @media  (max-width: 768px){
     header{
         padding: 0 0px;
@@ -552,6 +566,14 @@ a{
    .project>div{
     width: 80%;
     margin: auto;
+   }
+
+   .project>div>div{
+    flex-wrap: wrap;
+   }
+
+   .project>div>h1{
+    font-size: 16px;
    }
 
    .project>div>div>div{
