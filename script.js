@@ -26,3 +26,16 @@ const observer = new IntersectionObserver((entries)=>{
 
 const hiddenElement = document.querySelectorAll(".hidden");
 hiddenElement.forEach((element)=> observer.observe(element));
+
+
+GitHubCalendar(".calendar", "amanvyas1");
+
+    // or enable responsive functionality:
+    GitHubCalendar(".calendar", "amanvyas1", { responsive: true });
+
+    // Use a proxy
+    GitHubCalendar(".calendar", "amanvyas1", {
+       proxy (username) {
+         return fetch(`https://your-proxy.com/github?user=${amanvyas1}`)
+       }
+    }).then(r => r.text())

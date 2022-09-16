@@ -35,6 +35,7 @@ body{
     background: yellow;
   }
 
+
 header{
     background-color: black;
     position: sticky;
@@ -337,8 +338,7 @@ a{
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
-    border: 1px solid #AAABAB;
-    /* border-radius:5px ; */
+    border: 0.4px solid #AAABAB;
 }
 
 .project>div{
@@ -564,7 +564,7 @@ a{
    }
 
    .project>div{
-    width: 80%;
+    width: 95%;
     margin: auto;
    }
 
