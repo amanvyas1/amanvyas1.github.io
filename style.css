@@ -315,17 +315,33 @@ a{
 }
 
 .education{
-    height: 400px;
     width: 100%;
-    background-color: #fed942;
     padding-top: 80px;
     padding-bottom: 80px;
+    background-color: #fed942;
 }
 
 .education>h1{
     text-align: center;
 }
 
+
+.stats{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+
+  .stats>img{
+    max-width: 100%;
+    height: auto;
+  }
+
+  text.ContributionCalendar-label {
+    fill: rgb(0, 0, 0);
+    font-size: 13px;
+}
 .projects{
     /* border: 2px solid #008000; */
     text-align: center;
@@ -419,6 +435,7 @@ a{
     transform: translateX(0);
   }
 
+ 
 @media  (max-width: 768px){
     header{
         padding: 0 0px;
@@ -507,6 +524,11 @@ a{
      margin: auto;
     }
 
+    .calendar svg{
+       max-width: 100%;
+    }
+
+  
 }
 
 @media  (max-width: 481px){
@@ -579,4 +601,7 @@ a{
    .project>div>div>div{
     gap: 5px;
   }
+
+  
+
 }
