@@ -342,6 +342,9 @@ a{
     fill: rgb(0, 0, 0);
     font-size: 13px;
 }
+
+
+
 .projects{
     /* border: 2px solid #008000; */
     text-align: center;
@@ -524,9 +527,9 @@ a{
      margin: auto;
     }
 
-    .calendar svg{
+    /* .calendar svg{
        max-width: 100%;
-    }
+    } */
 
   
 }
@@ -601,7 +604,5 @@ a{
    .project>div>div>div{
     gap: 5px;
   }
-
-  
 
 }
