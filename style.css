@@ -324,7 +324,10 @@ a{
 .education>h1{
     text-align: center;
 }
-
+.calendar{
+    width: 90%;
+    border: none;
+}
 
 .stats{
     display: flex;

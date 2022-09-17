@@ -39,3 +39,8 @@ GitHubCalendar(".calendar", "amanvyas1");
          return fetch(`https://your-proxy.com/github?user=${amanvyas1}`)
        }
     }).then(r => r.text())
+
+let btnres = document.querySelector("#btn-resume");
+btnres.addEventListener("click", () => {
+    window.location.href = "resume/Aman_Vyas_Resume.pdf"
+})
