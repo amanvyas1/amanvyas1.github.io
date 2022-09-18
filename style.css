@@ -692,6 +692,10 @@ a{
     gap: 5px;
   }
 
+  .calendar svg{
+    max-width: 100%;
+  }
+
 }
 
 @media  (max-width: 281px){
