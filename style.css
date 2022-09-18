@@ -611,6 +611,16 @@ a{
     .grl{
         margin: auto;
     }
+
+    #form-container{
+        /* border: 2px solid #AAABAB; */
+        width: 70%;
+        margin: auto;
+      }
+
+      .calendar svg{
+        max-width: 100%;
+      }
   
 }
 
@@ -694,6 +704,12 @@ a{
 
   .calendar svg{
     max-width: 100%;
+  }
+
+  #form-container{
+    /* border: 2px solid #AAABAB; */
+    width: 90%;
+    margin: auto;
   }
 
 }
