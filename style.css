@@ -447,7 +447,75 @@ a{
     transform: translateX(0);
   }
 
- 
+  .contact{
+    background-color:rgb(10, 9, 9);
+    padding: 80px 0;
+  }
+  .contact >div> h1{
+    text-align: center;
+    color: #AAABAB;
+
+  }
+  .contact>div{
+    margin: 15px 0;
+  }
+
+  #form-container{
+    /* border: 2px solid #AAABAB; */
+    width: 40%;
+    margin: auto;
+  }
+  input,textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 19px;
+    margin: 10px 0;
+  }
+  label{
+    color: aliceblue;
+  }
+  textarea {
+    resize: vertical;
+  }
+  button[type=submit]{
+    width: 50%;
+    display: block;
+    color: black;
+    margin: auto;
+    height: 50px;
+    background-color:#ffffff;
+    font-size: 19px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+
+  button[type=submit]:hover{
+    scale: 1.1;
+  }
+
+  #links{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid #ccc; */
+    width: 40%;
+    margin: auto;
+  }
+  #links img{
+    width: 40px;
+    height: 40px;
+    transition: all 0.3s ease;
+  }
+
+  #links>a>img:hover{
+    scale: 1.2;
+    }
+
+  #mob{
+    color: white;
+    text-align: center;
+  }
+
 @media  (max-width: 768px){
     header{
         padding: 0 0px;
