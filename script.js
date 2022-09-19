@@ -15,7 +15,7 @@ document.querySelectorAll(".nav-link").forEach(n =>{
 
 const observer = new IntersectionObserver((entries)=>{
     entries.forEach((entry)=>{
-        console.log(entry);
+        // console.log(entry);
         if(entry.isIntersecting){
             entry.target.classList.add("show");
         }else{
@@ -27,16 +27,8 @@ const observer = new IntersectionObserver((entries)=>{
 const hiddenElement = document.querySelectorAll(".hidden");
 hiddenElement.forEach((element)=> observer.observe(element));
 
-
-GitHubCalendar(".calendar", "amanvyas1");
-
     // or enable responsive functionality:
     GitHubCalendar(".calendar", "amanvyas1", { responsive: true });
 
-    // Use a proxy
-    GitHubCalendar(".calendar", "amanvyas1", {
-       proxy (amanvyas1) {
-         return fetch(`https://your-proxy.com/github?user=${amanvyas1}`)
-       }
-    }).then(r => r.text())
+  
 

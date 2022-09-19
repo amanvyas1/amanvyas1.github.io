@@ -319,7 +319,9 @@ a{
 .tech-stack>div>img{
     width: 50%; 
 }
-
+#js{
+    width: 90%;
+}
 .education{
     width: 100%;
     padding-top: 80px;
@@ -366,7 +368,8 @@ a{
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-between;
-    border: 0.4px solid #AAABAB;
+    border: 10px solid black;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .project>div{
@@ -376,8 +379,26 @@ a{
     width: 50%;
     display: flex;
     flex-direction: column;
+    border-radius:10px;
 }
 
+.project>div:nth-child(2){
+    /* background-color: black; */
+    /* color:#d4d4d4; */
+    /* border-radius: 40px; */
+    margin: auto;
+    border-left: 10px solid black;
+}
+
+.project>div:nth-child(2)>h1{
+    /* border:1px solid #fed942; */
+    background-color: #AAABAB;
+}
+.project>div:nth-child(2)>ul{
+    /* border: 1px solid #fed942; */
+   
+
+}
 .project>div>img{
     /* border: 2px solid blueviolet; */
     width: 100%;
@@ -387,6 +408,10 @@ a{
 .project>div>h1{
    text-align: center;
 }
+
+.project>div>p:last-child{
+    font-weight: bold;
+ }
 .project>div>div{
     /* border: 1px solid red; */
     display: flex;
@@ -516,6 +541,39 @@ a{
     text-align: center;
   }
 
+  #mob>p>img{
+    width: 50px;
+    height: 50px;
+  }
+
+  #phone1{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+  }
+
+  #mob>p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #mob>a{
+    margin-top: 20px;
+  }
+
+  #phone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  footer{
+    text-align: center;
+    background-color: black;
+    color: #AAABAB;
+    padding-bottom: 20px;
+  }
 @media  (max-width: 768px){
     header{
         padding: 0 0px;
@@ -578,6 +636,7 @@ a{
      .tech-stack{
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: auto;
+        
     }
 
     .tech-stack>div>img{
@@ -602,6 +661,14 @@ a{
     .project>div{
      width: 80%;
      margin: auto;
+    }
+
+    .project>div:nth-child(2){
+        /* background-color: black; */
+        /* color:#d4d4d4; */
+        /* border-radius: 40px; */
+        margin: auto;
+        border-left: 0px solid black;
     }
 
     /* .calendar svg{
@@ -637,8 +704,9 @@ a{
 
 
     .tech-stack{
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(2,1fr);
         grid-template-rows: auto;
+        gap: 20px;
     }
 
     .intro>h3{
