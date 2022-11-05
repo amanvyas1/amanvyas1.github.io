@@ -306,6 +306,7 @@ a{
     grid-template-columns: repeat(4,1fr);
     gap: 40px;
     color: #AAABAB;
+    padding-top: 40px;
 }
 
 .tech-stack>div{
@@ -314,11 +315,15 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    /* border:1px solid #AAABAB; */
 }
 
 .tech-stack>div>img{
     width: 50%; 
+    margin-bottom: 20px;
 }
+
+
 #js{
     width: 90%;
 }

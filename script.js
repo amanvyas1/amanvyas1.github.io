@@ -32,3 +32,11 @@ hiddenElement.forEach((element)=> observer.observe(element));
 
   
 
+let resumeSec = document.querySelectorAll(".drive")
+resumeSec.forEach((el)=> el.addEventListener("click",()=>{
+    window.open(
+        'https://drive.google.com/file/d/1-OKn696TZxzQU0qdYaFv1ojTHotgT-KZ/view',
+        '_blank'
+      );
+})) 
+
