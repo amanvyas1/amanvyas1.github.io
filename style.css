@@ -251,7 +251,7 @@ a{
     margin-top: 30px;
     height: 326px;
     width: 326px;
-    background-color: #fed942;
+    /* background-color: #fed942; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -329,6 +329,9 @@ a{
     background-color: #fed942;
 }
 
+#githubstats{
+    margin-bottom: 30px;
+}
 .education>h1{
     text-align: center;
 }
