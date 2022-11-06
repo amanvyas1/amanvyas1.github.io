@@ -333,8 +333,10 @@ a{
 }
 
 .tech-stack>div>div>img{
-    width: 60%; 
-    margin-bottom: 20px;
+    /* width: 60%;  */
+    width: 100px;
+    aspect-ratio: 1;
+    margin-bottom: 10px;
     /* border:1px solid #AAABAB; */
 }
 
@@ -343,7 +345,7 @@ a{
     margin-bottom: -10px;
 }
 
-#js{
+/* #js{
     width: 90%;
     margin-bottom: 40px;
 }
@@ -363,7 +365,7 @@ a{
 #spring{
     margin-top: 20px;
     margin-bottom: 70px;
-}
+} */
 .education{
     width: 100%;
     padding-top: 80px;
@@ -538,6 +540,7 @@ a{
     padding: 10px;
     font-size: 19px;
     margin: 10px 0;
+    background-color:#d4d4d4;
   }
   label{
     color: aliceblue;
@@ -612,7 +615,7 @@ a{
   }
 
   #submit-btn{
-    background-color: #fed942;
+    background-color: #d4d4d4;
     border: none;
   }
 
@@ -687,9 +690,9 @@ a{
         
     }
 
-    .tech-stack>div>img{
+    /* .tech-stack>div>img{
         width: 40%; 
-    }
+    } */
 
     .about-me-container>div{
         display: flex;
@@ -761,6 +764,10 @@ a{
         font-size: 0.8rem;
     }
 
+    .info>p{
+        font-size: 14px;
+    }
+
     .my-pic{
         width: 100%;
         height: 220px;
@@ -790,14 +797,18 @@ a{
         text-align: center;
     }
 
+    .info{
+        margin-bottom: -30px;
+    }
+
     .skills-list{
         grid-template-columns: repeat(1,1fr);
         grid-template-rows: auto;
         margin: 30px 0px;
     }
-    .tech-stack>div>div>img{
+    /* .tech-stack>div>div>img{
         width: 80%; 
-    }
+    } */
     
 
 
