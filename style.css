@@ -827,11 +827,19 @@ a{
    }
 
    .project>div>h1{
+    font-size: 20px;
+   }
+
+   .project>div>h3{
     font-size: 16px;
    }
 
    .project>div>div>div{
     gap: 5px;
+  }
+
+  .project p,li{
+    font-size: 12px;
   }
 
   .calendar svg{
