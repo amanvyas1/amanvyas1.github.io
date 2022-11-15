@@ -542,6 +542,7 @@ a{
     font-size: 19px;
     margin: 10px 0;
     background-color:#d4d4d4;
+    border-radius: 5px;
   }
   label{
     color: aliceblue;
