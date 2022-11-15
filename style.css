@@ -416,8 +416,8 @@ a{
     display: flex;
     justify-content: space-between;
     /* border: 1px solid black; */
-    font-family: 'Courier New', Courier, monospace;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: sans-serif;
 }
 
 .project>div{
@@ -427,12 +427,13 @@ a{
     width: 50%;
     display: flex;
     flex-direction: column;
-    border-radius:10px;
+    border-radius:5px;
 }
 
 .project>div:nth-child(2){
     margin: auto;
     border: 1px solid black;
+    margin-right: 20px;
 }
 
 /* .project>div:nth-child(2)>h1{ */
