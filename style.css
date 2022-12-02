@@ -465,7 +465,11 @@ a{
     border-radius: 5px;
 }
 .project>div>h1{
-   text-align: center;
+   text-align: left;
+}
+
+.project>div{
+    text-align:left;
 }
 
 .project>div>p:last-child{
