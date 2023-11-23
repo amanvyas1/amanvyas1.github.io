@@ -215,6 +215,7 @@ a{
     padding-top: 80px;
     padding-bottom: 80px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .about-me-container>div{
     display: flex;
@@ -372,7 +373,7 @@ a{
     padding-bottom: 80px;
     background-color: #fed942;
 }
-
+/* experience section */
 .experience{
     width: 100%;
     padding-top: 80px;
@@ -382,6 +383,71 @@ a{
 
 .experience>h1{
     text-align: center;
+}
+/* Heading Styles */
+.experience h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Container Styles */
+.experience > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+/* Job Details Styles */
+.experience > div > div {
+    width: 48%; /* Adjust as needed */
+    margin: auto;
+    margin-bottom: 20px;
+    /* border: 2px solid black; */
+    padding: 0px 20px;
+}
+
+/* Job Title and Date Styles */
+.experience h3,
+.experience p {
+    margin: 0;
+}
+
+/* Key Achievements Styles */
+.experience h4 {
+    margin-bottom: 10px;
+}
+
+/* List Styles */
+.experience ul {
+    list-style: none;
+    padding: 0;
+}
+
+.experience li {
+    margin-bottom: 10px;
+}
+
+/* Icon Styles */
+.experience li i {
+    margin-right: 10px;
+}
+
+.experience {
+    text-align: left;
+    padding-top:80px ;
+    padding-bottom: 80px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .experience > div {
+        flex-direction: column;
+    }
+
+    .experience > div > div {
+        width: 100%;
+    }
 }
 
 #githubstats{
@@ -430,6 +496,7 @@ a{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-family: sans-serif;
     /* border: 3px solid black; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .project>div{
